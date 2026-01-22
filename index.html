@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Scribe – AI Student Assistant</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- <div class="logo">✦</div> -->
+
+            <div class="menu">
+                <div class="menu-item">
+                    <span class="icon">💬</span>
+                    <span class="text">Chat</span>
+                </div>
+
+                <div class="menu-item">
+                    <span class="icon">📊</span>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="menu-item">
+                    <span class="icon">⬆️</span>
+                    <span class="text">Uploads</span>
+                </div>
+
+                <div class="menu-item">
+                    <span class="icon">⚙️</span>
+                    <span class="text">Settings</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Area -->
+        <div class="main">
+
+            <!-- Top Bar -->
+            <div class="topbar">
+                <button class="signin-btn">Sign In</button>
+            </div>
+
+            <!-- Chat Area -->
+            <div class="chat-area">
+                <h2>How may I help?</h2>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." />
+                <button>Send</button>
+            </div>
+
+        </div>
+
+        <div class="modal-overlay" id="signinModal">
+            <div class="signin-modal">
+
+                <h2>Sign In</h2>
+
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+
+                <button class="primary-btn">Submit</button>
+
+                <div class="divider">or</div>
+
+                <button class="google-btn">
+                    <span>🔍</span> Continue with Google
+                </button>
+
+                <p class="signup-text">
+                    Don’t have an account?
+                    <a href="#">Sign up</a>
+                </p>
+
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
