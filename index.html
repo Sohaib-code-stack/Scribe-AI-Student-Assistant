@@ -60,6 +60,7 @@
 
         </div>
 
+        <!-- Sign In Modal -->
         <div class="modal-overlay" id="signinModal">
             <div class="signin-modal">
 
@@ -78,12 +79,38 @@
 
                 <p class="signup-text">
                     Don’t have an account?
-                    <a href="#">Sign up</a>
+                    <a href="#" id="openSignup">Sign up</a>
                 </p>
 
             </div>
-            
         </div>
+
+        <!-- Sign Up Modal (SEPARATE) -->
+        <div class="modal-overlay" id="signupModal">
+            <div class="signin-modal">
+
+                <h2>Create Account</h2>
+
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+
+                <button class="primary-btn">Sign Up</button>
+
+                <div class="divider">or</div>
+
+                <button class="google-btn">
+                    <span>🔍</span> Sign up with Google
+                </button>
+
+                <p class="signup-text">
+                    Already have an account?
+                    <a href="#" id="backToSignin">Sign in</a>
+                </p>
+
+            </div>
+        </div>
+
 
     </div>
     <script src="script.js"></script>
