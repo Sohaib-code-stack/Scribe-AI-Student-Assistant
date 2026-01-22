@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
 }
 
 body {
@@ -33,14 +34,6 @@ body {
 .sidebar:hover {
     width: 220px;
     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.12);
-}
-
-/* Logo */
-.logo {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 25px;
 }
 
 /* Menu Items */
@@ -79,6 +72,7 @@ body {
     white-space: nowrap;
     transition: opacity 0.2s ease, transform 0.2s ease;
     transform: translateX(-10px);
+    font-size: 20px;
 }
 
 /* Show Text On Hover */
@@ -113,6 +107,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s;
+    font-size: 18px;
 }
 
 .signin-btn:hover {
@@ -127,7 +122,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #888;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 /* Chat Input */
@@ -146,7 +141,7 @@ body {
     border-radius: 25px;
     border: 1px solid #ccc;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .chat-input button {
@@ -157,6 +152,7 @@ body {
     color: white;
     cursor: pointer;
     transition: background 0.3s;
+    font-size: 20px;
 }
 
 .chat-input button:hover {
@@ -221,6 +217,7 @@ body {
 
 /* Inputs */
 .signin-modal input {
+    font-size: 18px;
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -229,6 +226,7 @@ body {
 
 /* Primary Button */
 .primary-btn {
+    font-size: 18px;
     padding: 12px;
     border: none;
     border-radius: 8px;
@@ -246,11 +244,12 @@ body {
 .divider {
     text-align: center;
     color: #999;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* Google Button */
 .google-btn {
+    font-size: 18px;
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -268,12 +267,13 @@ body {
 
 /* Signup Text */
 .signup-text {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
+    font-size: 18px;
 }
 
 .signup-text a {
-    color: #333;
+    color: #585858;
     text-decoration: none;
     font-weight: bold;
 }
